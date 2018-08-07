@@ -7,6 +7,7 @@ An assortment of visual 'applets' written using the Java based sketchbook Proces
   * [What inspires these mini projects?](#what-inspires-these-mini-projects)
   * [What is Processing?](#what-is-processing)
   * [How to run code in this repo?](#how-to-run-code-in-this-repo)
+* [Hilbert Curve](#hilbert-curve)
 
 # Introduction
 ## What inspires these mini projects?
@@ -33,3 +34,20 @@ Here is an excerpt from the Processing website:
 
 ## How to run code in this repo?
 Unfortunatley, the Processing environment is needed to run and interact with the code directly. I will do my best to layout all of the visually stunning and interesting parts of my projects through images and code excerpts through out this README, however the environment can be downloaded [here](https://processing.org/download/) if you choose to run the code on your own.
+
+
+# Hilbert Curve
+
+<p align="center">
+  <img src="https://rdslade.github.io/otherPics/hilbert.gif">
+</p>
+
+## Controls
+<kbd>↑</kbd> to zoom in
+
+<kbd>↓</kbd> to zoom out
+
+## References
+* [Wikipedia](https://en.wikipedia.org/wiki/Hilbert_curve)
+* [Wolfram MathWorld](http://mathworld.wolfram.com/HilbertCurve.html)
+* [Iterative algorithm for drawing Hilbert curve](https://marcin-chwedczuk.github.io/iterative-algorithm-for-drawing-hilbert-curve)
