@@ -8,6 +8,7 @@ An assortment of visual 'applets' written using the Java based sketchbook Proces
   * [What is Processing?](#what-is-processing)
   * [How to run code in this repo?](#how-to-run-code-in-this-repo)
 * [Hilbert Curve](#hilbert-curve)
+* [Ulam Prime Spiral](#ulam-prime-spiral)
 
 # Introduction
 ## What inspires these mini projects?
@@ -39,6 +40,8 @@ Unfortunatley, the Processing environment is needed to run and interact with the
 Unfortunatley, the Processing environment is needed to run and interact with the code directly. I will do my best to layout all of the visually stunning and interesting parts of my projects through images and code excerpts through out this README, however the environment can be downloaded [here](https://processing.org/download/) if you choose to run the code on your own.
 
 # Hilbert Curve
+[Link to code](https://github.com/rdslade/ProcessingApps/tree/master/hilbert)
+
 The Hilbert curve is a [space filling curve](https://en.wikipedia.org/wiki/Space-filling_curve) derived by German mathematician David Hilbert in 1891. This curve can be drawn at different levels with increasing levels approximating the entirety of the unit square. 
 
 The first iteration of the Hilbert curve simple looks like a 'U' with rigid corners. From here on, each subsequent level can be created by drawing 4 copies of the previous levels curve in a specific orientation and then connecting those 4 curves to create one continuous line where each level tightens the spacing between the lines.
@@ -54,6 +57,7 @@ The static images seen below demonstrate this recursive technique.
 In my code, as opposed to performing the drawing method recursively, the implementation finds the (X, Y) coordinates of each vertex in the curve in successive order. This means the drawing technique is iterative and resembles drawing a long continuous curve as opposed to putting together disconnected pieces in each step. Much of the algorithm was traced from the 'Iterative algorithm for drawing Hilbert curve' which was originally written in Javascript. The piece as a whole gives great insight for deriving the algorithm from scratch by considering the curve as a maze where each n = 1 Hilbert curve is a room which has a single entrance and exit.
 
 Following is a playback of my code running in the Processing environment:
+
 <center>
 	<img src="https://rdslade.github.io/otherPics/hilbert.gif">
 </center>
@@ -61,14 +65,30 @@ Following is a playback of my code running in the Processing environment:
 This GIF ranges from n = 3 up to n = 9. However, the program can run down to n = 1 and is capped at n = 10 as controlled by the user. The image rending is very slow at levels higher than n = 10.
 
 As for color, I used 1 dimensional [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise) that relied on the fraction of the way through the curve (e.g. 2/3 of the way through) as well as a time offset that begins at the beginning of the program. This results in both a smooth, random change in colors as the curve moves through the page, as well as a 'forward' movement that results in a snake like motion with the colors progressing through the body of the curve continuously over time.
-## Controls
+### Controls
 <kbd>↑</kbd> to zoom in
 
 <kbd>↓</kbd> to zoom out
 
-## References
+### References
 * [Wikipedia](https://en.wikipedia.org/wiki/Hilbert_curve)
 * [Wolfram MathWorld](http://mathworld.wolfram.com/HilbertCurve.html)
 * [Iterative algorithm for drawing Hilbert curve](https://marcin-chwedczuk.github.io/iterative-algorithm-for-drawing-hilbert-curve)
 * [Hilbert's Curve: Is Infinite Math Useful?](https://www.youtube.com/watch?v=3s7h2MHQtxc&vl=en)
+
+# Ulam Prime Spiral
+[Link to code](https://github.com/rdslade/ProcessingApps/tree/master/ulam)
+
+The Ulam Prime Spiral was discovered by scientist and mathmetician Stanislaw Ulam in 1963. The story goes that Ulam was sitting through a boring lecture at a scientific meeting and began doodling a spiral of numbers. He began with the number 1 directly in the middle of the paper and began spiraling around from there. '2' went directly to the right of '1', '3' directly below '2', '4' to the left of '3', and so on. He continued with this to fill up some area of a square grid.
+
+This swirling pattern is demonstrated by the image made by my code below.
+
+<center>
+	<img src="https://rdslade.github.io/otherPics/ulam_plain.png">
+</center>
+
+Ulam went about playing with his spiral when he noticed something very interesting. If he colored in the prime numbers on his spiral, diagonal lines would begin to appear. Not neceessarilly every space on a specific diagonal line would show up, but the more he zoomed out on his spiral the more definite the pattern of extending diagonal lines would appear. Here is a series of images rendered from my Ulam program that show this phenomena. 
+
+| ![](https://rdslade.github.io/otherPics/ulam_close.png)  | ![](https://rdslade.github.io/otherPics/ulam_mid.png) | ![](https://rdslade.github.io/otherPics/ulam_far.png)|
+| ---------------------- | -------------------------------------------- | -------------------------------------------- |
 
