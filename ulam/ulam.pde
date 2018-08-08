@@ -19,7 +19,7 @@ color compositeColor = color(255);
 
 PFont f;
 void setup() {
-  size(900, 1100);
+  size(600, 800);
   f = createFont("Arial", 20, true);
   updateGridLen(0);
   background(0);
@@ -159,9 +159,9 @@ void updateGridLen(int change) {
     gridLen = gridLimit;
     print("Capped at " + gridLimit);
   }
-  spacing = 1000 / (gridLen - 1);
-  fillSize = 1000 / gridLen;
-  fontSize = 400 / gridLen;
+  spacing = 750 / (gridLen - 1);
+  fillSize = 800 / gridLen;
+  fontSize = 300 / gridLen;
 }
 
 

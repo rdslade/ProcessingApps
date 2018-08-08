@@ -5,7 +5,7 @@ int p = 5;
 void setup(){
   int w = 600;
   int h = 600;
-  size(1000, 1000);
+  size(700, 700);
   background(0);
   stroke(255);
   hilXY(2, 2);
