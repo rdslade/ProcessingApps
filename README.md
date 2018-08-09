@@ -92,3 +92,15 @@ Ulam went about playing with his spiral when he noticed something very interesti
 | ![](https://rdslade.github.io/otherPics/ulam_close.png)  | ![](https://rdslade.github.io/otherPics/ulam_mid.png) | ![](https://rdslade.github.io/otherPics/ulam_far.png)|
 | ---------------------- | -------------------------------------------- | -------------------------------------------- |
 
+
+This program uses a predicate called `isPrime(int n)` to determine whether or not a number is prime. This being the case, many modes can be derived each having it's own predicate to determine whether or not the number should be colored or not. As seen by the options detailed below and in the instructions of the images above, these other options are as follows.
+
+| ![](https://rdslade.github.io/otherPics/ulam_even.png) | ![](https://rdslade.github.io/otherPics/ulam_odd.png) | ![](https://rdslade.github.io/otherPics/ulam_square.png) | ![](https://rdslade.github.io/otherPics/ulam_cube.png) |
+| --------------- | --------------- | ------------------------- | ---------------------- |
+| `isEven(int n)` | `isOdd(int n)`  | `isPerfectSquare(int n)`  | `isPerfectCube(int n)` |
+
+Lastly, in a similar way to the color scheme described in the Hilbert curve project, it is possible to change the color mode between a solid red color and a Perlin noise controlled color that smoothly changes over time. The following is a capture of this with every one of the squares colored in.
+
+![](https://rdslade.github.io/otherPics/ulam_pretty.gif)
+
+At first I did not expect the color changes to have any sort of pattern or noticable movement to it, however since the perlin noise is based on the the number of the square, a noticable swirling motion can be seen in the last GIF. This is because the numbers themselves increase in that swirling curve!
