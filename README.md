@@ -104,3 +104,33 @@ Lastly, in a similar way to the color scheme described in the Hilbert curve proj
 ![](https://rdslade.github.io/otherPics/ulam_pretty.gif)
 
 At first I did not expect the color changes to have any sort of pattern or noticable movement to it, however since the perlin noise is based on the the number of the square, a noticable swirling motion can be seen in the last GIF. This is because the numbers themselves increase in that swirling curve!
+
+### Controls
+*Zoom:*
+
+<kbd>↑</kbd> to zoom in
+
+<kbd>↓</kbd> to zoom out
+
+*Mode:*
+
+<kbd>p</kbd> to highlight prime numbers
+
+<kbd>e</kbd> to highlight even numbers
+
+<kbd>o</kbd> to highlight odd numbers
+
+<kbd>[n]</kbd> to highlight perfect nth numbers (where n is a digit)
+
+<kbd>c</kbd> to highlight no numbers (clear)
+
+*Display:*
+
+<kbd>s</kbd> to show number text
+
+<kbd>SHIFT</kbd> to switch color scheme
+### References
+* [Wikipedia](https://en.wikipedia.org/wiki/Ulam_spiral)
+* [Wolfram Mathworld](http://mathworld.wolfram.com/PrimeSpiral.html)
+* [Prime Spirals - Numberphile](https://www.youtube.com/watch?v=iFuR97YcSLM)
+* [Reasoning behind the prime spiral](http://www.betweenartandscience.com/ulamspiral_words.html)
