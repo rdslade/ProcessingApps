@@ -7,6 +7,7 @@ An assortment of visual 'applets' written using the Java based sketchbook Proces
   * [What inspires these mini projects?](#what-inspires-these-mini-projects)
   * [What is Processing?](#what-is-processing)
   * [How to run code in this repo?](#how-to-run-code-in-this-repo)
+* [TODO](#todo)
 * [Hilbert Curve](#hilbert-curve)
 * [Ulam Prime Spiral](#ulam-prime-spiral)
 
@@ -38,6 +39,19 @@ Unfortunatley, the Processing environment is needed to run and interact with the
 
 ## How to run code in this repo?
 Unfortunatley, the Processing environment is needed to run and interact with the code directly. I will do my best to layout all of the visually stunning and interesting parts of my projects through images and code excerpts through out this README, however the environment can be downloaded [here](https://processing.org/download/) if you choose to run the code on your own.
+
+# TODO
+- [ ] Add to README
+    - [X] Hilbert
+    - [X] Ulam
+    - [ ] Derivative vizualization
+    - [ ] Monte carlo 'e' estimate
+    - [ ] Circle area vizualization
+    
+- [ ] Edit/Finish Sketches
+    - [ ] Narayana's cows
+    - [ ] Monte carlo '𝜋' estimate
+    - [ ] Include multiples of numbers in Ulam
 
 # Hilbert Curve
 [Link to code](https://github.com/rdslade/ProcessingApps/tree/master/hilbert)
