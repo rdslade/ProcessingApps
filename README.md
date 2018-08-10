@@ -37,9 +37,6 @@ Here is an excerpt from the Processing website:
 ## How to run code in this repo?
 Unfortunatley, the Processing environment is needed to run and interact with the code directly. I will do my best to layout all of the visually stunning and interesting parts of my projects through images and code excerpts through out this README, however the environment can be downloaded [here](https://processing.org/download/) if you choose to run the code on your own.
 
-## How to run code in this repo?
-Unfortunatley, the Processing environment is needed to run and interact with the code directly. I will do my best to layout all of the visually stunning and interesting parts of my projects through images and code excerpts through out this README, however the environment can be downloaded [here](https://processing.org/download/) if you choose to run the code on your own.
-
 # TODO
 - [ ] Add to README
     - [X] Hilbert
@@ -103,7 +100,7 @@ This swirling pattern is demonstrated by the image made by my code below.
 
 Ulam went about playing with his spiral when he noticed something very interesting. If he colored in the prime numbers on his spiral, diagonal lines would begin to appear. Not neceessarilly every space on a specific diagonal line would show up, but the more he zoomed out on his spiral the more definite the pattern of extending diagonal lines would appear. Here is a series of images rendered from my Ulam program that show this phenomena. 
 
-| ![](https://rdslade.github.io/otherPics/ulam_close.png)  | ![](https://rdslade.github.io/otherPics/ulam_mid.png) | ![](https://rdslade.github.io/otherPics/ulam_far.png)|
+| ![](https://rdslade.github.io/otherPics/ulam_close.png) | ![](https://rdslade.github.io/otherPics/ulam_mid.png) | ![](https://rdslade.github.io/otherPics/ulam_far.png) |
 | ---------------------- | -------------------------------------------- | -------------------------------------------- |
 
 
