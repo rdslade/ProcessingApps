@@ -1,5 +1,9 @@
 # ProcessingApps
-An assortment of visual 'applets' written using the Java based sketchbook Processing.
+
+| <a href = "https://rdslade.github.io/ProcessingApps/hilbert"><img width="100" src="https://rdslade.github.io/otherPics/hilbert.gif"></a> | <a href = "https://rdslade.github.io/ProcessingApps/ulam"><img height="100" src="https://rdslade.github.io/otherPics/ulam_close.png"></a> | Image available soon!
+| ------------- | -------------- | ---------- |
+| [**Hilbert curve**](https://rdslade.github.io/ProcessingApps/hilbert) | [**Ulam prime spiral**](https://rdslade.github.io/ProcessingApps/ulam) | [**Derivative visualization**](https://rdslade.github.io/ProcessingApps/der_viz) |
+
 
 # Table of Contents
 * [Introduction](#introduction)
@@ -7,9 +11,7 @@ An assortment of visual 'applets' written using the Java based sketchbook Proces
   * [What is Processing?](#what-is-processing)
   * [How to run code in this repo?](#how-to-run-code-in-this-repo)
 * [TODO](#todo)
-* [Hilbert Curve](https://rdslade.github.io/ProcessingApps/hilbert)
-* [Ulam Prime Spiral](https://rdslade.github.io/ProcessingApps/ulam)
-* [Derivative vizualization](https://rdslade.github.io/ProcessingApps/der_viz)
+* [Links](#links)
 
 # Introduction
 ## What inspires these mini projects?
@@ -49,4 +51,11 @@ Unfortunatley, the Processing environment is needed to run and interact with the
     - [ ] Narayana's cows
     - [ ] Monte carlo '𝜋' estimate
     - [ ] Include multiples of numbers in Ulam
+    
+# Links
+
+The following are links the the individual project pages. These links go to the same adresses as the ones listed with images at the top of this page.
+* [Hilbert Curve](https://rdslade.github.io/ProcessingApps/hilbert)
+* [Ulam Prime Spiral](https://rdslade.github.io/ProcessingApps/ulam)
+* [Derivative vizualization](https://rdslade.github.io/ProcessingApps/der_viz)
     
