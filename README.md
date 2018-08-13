@@ -2,7 +2,6 @@
 An assortment of visual 'applets' written using the Java based sketchbook Processing.
 
 # Table of Contents
-* [ProcessingApps](#processingapps)
 * [Introduction](#introduction)
   * [What inspires these mini projects?](#what-inspires-these-mini-projects)
   * [What is Processing?](#what-is-processing)
@@ -10,6 +9,7 @@ An assortment of visual 'applets' written using the Java based sketchbook Proces
 * [TODO](#todo)
 * [Hilbert Curve](#hilbert-curve)
 * [Ulam Prime Spiral](#ulam-prime-spiral)
+* [Derivative vizualization](#derivative-vizualization)
 
 # Introduction
 ## What inspires these mini projects?
@@ -101,7 +101,8 @@ This swirling pattern is demonstrated by the image made by my code below.
 Ulam went about playing with his spiral when he noticed something very interesting. If he colored in the prime numbers on his spiral, diagonal lines would begin to appear. Not neceessarilly every space on a specific diagonal line would show up, but the more he zoomed out on his spiral the more definite the pattern of extending diagonal lines would appear. Here is a series of images rendered from my Ulam program that show this phenomena. 
 
 | ![](https://rdslade.github.io/otherPics/ulam_close.png) | ![](https://rdslade.github.io/otherPics/ulam_mid.png) | ![](https://rdslade.github.io/otherPics/ulam_far.png) |
-| ---------------------- | -------------------------------------------- | -------------------------------------------- |
+| ---------- | -------- | -------- |
+| Close zoom | Mid zoom | Far zoom |
 
 
 This program uses a predicate called `isPrime(int n)` to determine whether or not a number is prime. This being the case, many modes can be derived each having it's own predicate to determine whether or not the number should be colored or not. As seen by the options detailed below and in the instructions of the images above, these other options are as follows.
@@ -145,3 +146,9 @@ At first I did not expect the color changes to have any sort of pattern or notic
 * [Wolfram Mathworld](http://mathworld.wolfram.com/PrimeSpiral.html)
 * [Prime Spirals - Numberphile](https://www.youtube.com/watch?v=iFuR97YcSLM)
 * [Reasoning behind the prime spiral](http://www.betweenartandscience.com/ulamspiral_words.html)
+
+# Derivative vizualization
+
+[Link to code](https://github.com/rdslade/ProcessingApps/tree/master/derivative_viz)
+
+The concept of derivatives is a prevalnt topic when introducing calculus as well as an essential piece of advanced mathematics. While differentiation explains many funamental concepts familiar to most people ([displacment and it's derivatives in physics](http://wearcam.org/absement/Derivatives_of_displacement.htm), [maximizing cost](http://tutorial.math.lamar.edu/Classes/CalcI/BusinessApps.aspx), etc.), it is often introduced with confusing formulas and proofs that are unfamiliar to students getting introduced to calculus.
