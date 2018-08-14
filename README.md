@@ -1,6 +1,6 @@
 # ProcessingApps
 
-| <a href = "https://rdslade.github.io/ProcessingApps/hilbert"><img width="100" src="https://rdslade.github.io/otherPics/hilbert.gif"></a> | <a href = "https://rdslade.github.io/ProcessingApps/ulam"><img height="100" src="https://rdslade.github.io/otherPics/ulam_close.png"></a> | Image available soon!
+| <a href = "https://rdslade.github.io/ProcessingApps/hilbert"><img width="100" src="https://rdslade.github.io/otherPics/hilbert.gif"></a> | <a href = "https://rdslade.github.io/ProcessingApps/ulam"><img height="100" src="https://rdslade.github.io/otherPics/ulam_close.png"></a> | <a href = "https://rdslade.github.io/ProcessingApps/der_viz"><img height="100" src="https://rdslade.github.io/otherPics/der_complex.PNG"></a>
 | ------------- | -------------- | ---------- |
 | [**Hilbert curve**](https://rdslade.github.io/ProcessingApps/hilbert) | [**Ulam prime spiral**](https://rdslade.github.io/ProcessingApps/ulam) | [**Derivative visualization**](https://rdslade.github.io/ProcessingApps/der_viz) |
 
@@ -43,7 +43,7 @@ Unfortunatley, the Processing environment is needed to run and interact with the
 - [ ] Add to README
     - [X] Hilbert
     - [X] Ulam
-    - [ ] Derivative vizualization
+    - [X] Derivative visualization
     - [ ] Monte carlo 'e' estimate
     - [ ] Circle area vizualization
     
