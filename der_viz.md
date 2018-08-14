@@ -22,3 +22,9 @@ poly = new Polynomial(powers);
 ```
 
 After initializing, there needs to be some way to display the function. Given a certain input, it is not difficult to calculate the output at the point since you simply have to add each term of the polynomial together. However, figuring out what the input(s) should be was a tougher problem. First off all, it wasn't clear to me at first how the polynomial should even be displayed. How would I create a continuous line describing the function? Is there an easy way to created a curved output in just the correct spots using Processing? My solution to this was to approximate each function with points a discrete number of inputs. This way, I could add more and more input points to the environment to get a better look of the curve without having to invent some complex way of displaying a continuous curve. Instead, I could simply plot many points using the native `ellipse` function in Processing.
+
+By splitting the canvas width (in pixels) into a number of discrete chunks, I created an input space to be put into my `Polynomial` class. After tweaking with the displays and figuring out the orientation of the graphics, I was able to get an output below.
+
+<img width="300" src="https://rdslade.github.io/otherPics/blank_der.png">
+
+Hey! That looks like a graph of x^3! I was now ready to get started with the derivative portion of this project. Instead of thinking about the derivative with the equations stating the definition of the derivative, I thought about it in terms of intuition and the initial 'feel' I had for what the derivative means. By this I'm talking about the concept that the derivative is the slope of a function at all points; it represents the steepness of a graph as it changes it's output. So, how do we measure the steepness of a function I've displayed on the screen?
