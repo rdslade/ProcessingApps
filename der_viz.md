@@ -69,3 +69,18 @@ Also, here are more images with functions and their corresponding derivatives.
 | ------------------------ | ------------------ | ---------------- |
 | <img src="https://latex.codecogs.com/gif.latex?f'(x^2)&space;=&space;2x"/> | <img src="https://latex.codecogs.com/gif.latex?f'(3x)&space;=&space;3"/> | <img src="https://latex.codecogs.com/gif.latex?f'(\frac{1}{3}x^3&space;-&space;x&space;&plus;&space;2)&space;=&space;(x&space;&plus;&space;1)(x&space;-&space;1)" /> |
 
+### Controls
+There are buttons in the upper left side of the screen to control:
+
+**STEP** - Plots a single point of the derivative
+
+**CONTINUE/STOP** - Toggles the running state of the program
+
+**RESET** - Resets the program to the right side of the input space
+
+### References
+* [Wikipedia](https://en.wikipedia.org/wiki/Derivative)
+* [Wolfram MathWorld](http://mathworld.wolfram.com/Derivative.html)
+* [The paradox of the derivative - 3Blue1Brown](https://www.youtube.com/watch?v=9vKqVkMQHKk)
+* [Interactive derivative - Desmos](https://www.desmos.com/calculator/4pf1dxxzq2)
+
